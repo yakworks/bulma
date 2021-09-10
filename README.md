@@ -1,3 +1,12 @@
+# Forked for CSS Variables
+we do most of the heavy lifting in angle-grinder. only main thing we needed was to comment out the imports in derived-variables. Was having problems with overriding the functions and then having the defaults get picked back up again. 
+ 
+```
+// @import "initial-variables"
+// @import "functions"
+```
+
+
 # [Bulma](https://bulma.io)
 
 Bulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
